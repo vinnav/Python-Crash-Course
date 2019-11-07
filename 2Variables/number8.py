@@ -1,0 +1,5 @@
+print(3+5)
+print(9-1)
+print(4*2)
+print(round(16/2))
+print(2**3)
