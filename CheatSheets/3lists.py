@@ -32,7 +32,7 @@ for cat in cats:                    # Loop through each element
     print(cat)
 
 for value in range(1, 5):           # Loop through values in range, printing 1...4
-    print(value)
+    print(value)https://github.com/vinnav/Python-Crash-Course.git
 for value in range(5)               # Loop printing 0...4
 
 numbers = list(range(1, 6))         # Create the list [1, 2, 3, 4, 5]
@@ -49,5 +49,24 @@ sum(digits) = 45
 squares = [vualue**2 for value in range(1, 11)]     # Generate a list in one line
 squares = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
             # [expression to generate values, for loop to feed values]
-            
+
+# Slice a list
+listExample[0:3]    # elements 0, 1, 2
+listExample[:3]     # starts at the beginning
+listExample[3:]     # goes to the end
+listExample[-3:]    # last 3 elements
+
+# Loop through a slice
+for i in listExample[2:]:
+    print(i)
+
+# Copy a list
+listExample2 = listExample[:]   # Copy the full list, without [:] you refence the list
+
+# Tuple is a list that cannot change
+tupleExample = (0, 1, 2)    # tupleExample[0] = 1 won't work, you have to reassign 
+                            # entire tuple
+
+
+
 
