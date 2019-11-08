@@ -63,5 +63,10 @@ for i in listExample[2:]:
 # Copy a list
 listExample2 = listExample[:]   # Copy the full list, without [:] you refence the list
 
+# Tuple is a list that cannot change
+tupleExample = (0, 1, 2)    # tupleExample[0] = 1 won't work, you have to reassign 
+                            # entire tuple
+
+
 
 
