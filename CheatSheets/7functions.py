@@ -68,7 +68,7 @@ import moduleName as mN                 # Give the imported module an alias
 from moduleName import *                # Import every function 
                                         # (no need to call moduleName.functioName)
 # Style a function
-def functionName(
+def functionName(                       # Multi-line parameters
         parameter0, parameter 1,
         parameter2, parameter3):
     print()
