@@ -1,0 +1,3 @@
+In Python you can assign values to variables and work with them
+In Python you can do machine learning
+In Python you can do web develpment with Django
