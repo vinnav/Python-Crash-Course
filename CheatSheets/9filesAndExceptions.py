@@ -51,4 +51,16 @@ else:                                   # Run if tried code succeded
 except FileNotFoundError:               # File not found
     pass                                # Fails silently
 
+# STORING DATA
+import json
+data = [2, 3, 5, 7, 11, 13]
+filename = "file.json"
+with open(filename, "w") as f:
+    json.dump(data, f)              # Stores data into file.json
+
+with open(filename) as f:
+    numbers = json.load(f)          # Retrieve the stored data
+
+Pag 208, ex 10-12
+
 
