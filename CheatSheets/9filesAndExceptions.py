@@ -35,4 +35,20 @@ with open(filename, "w") as file_object: # Args: 1 file name,
 with open(filename, "a") as file_object: # Append mode doesn't overwrite
     file_object.write("Text appended") 
 
-pag 194
+# Count words
+words = file.split()
+numWords = len(words)
+
+# EXCEPTIONS
+
+try:                                    # Try to run the code
+    print(5/0)
+except ZeroDivisionError:               # Run if exception is raised
+    print("You can't divide by 0!")
+else:                                   # Run if tried code succeded
+    print("Division success")
+
+except FileNotFoundError:               # File not found
+    pass                                # Fails silently
+
+
